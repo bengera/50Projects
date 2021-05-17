@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  /*@media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    font-size: 40%;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 35%;
+  }
+   */ }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden; }
+
+.container {
+  display: flex;
+  width: 100vw;
+  position: relative; }
+
+.panel {
+  background-size: auto 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  transition: ease-in 0.3s; }
+
+.panel h3 {
+  font-size: 25px;
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  padding: 20px;
+  margin: 0; }
+
+h3 {
+  background-color: rgba(15, 17, 16, 0.9);
+  width: 100%;
+  color: white;
+  opacity: 0; }
+
+.panel.active {
+  flex: 5; }
+
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s; }
+
+.infobox {
+  background-color: rgba(88, 90, 89, 0.9);
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  right: 10px;
+  padding: 10px;
+  opacity: 0; }
+  .infobox__para {
+    font-size: 20px; }
+
+.infobox-v {
+  opacity: 1; }
+
+.box {
+  background-color: #2ee46a;
+  width: 500px;
+  height: 500px;
+  font-size: 10rem; }
