@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+}
+
+html {
+  transition: all 0.5s ease-in;
+}
+/*background color and color of text is overwritten by putting properties in HTML element*/
+

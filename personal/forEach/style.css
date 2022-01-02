@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  overflow: hidden;
+  margin: 0;
+  background-color: black;
+}
+
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+}
+
+/* html {
+
+} */
+
+
+.btn-container {
+  
+  display: flex;
+  margin-top: 5rem;
+  gap: 2rem;
+  width: 75vw;
+
+}
+
+
+button {
+  width: 130px;
+  height: 50px;
+  color: #fff;
+  font-weight: bold;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+
+
+}
+
+
+button:active {
+  scale: 0.95;
+
+}
+
+button.red {
+  background-color: rgb(221, 58, 58);
+}
+
+button.blue {
+  background-color: rgb(64, 64, 224);
+}
+
+button.green {
+  background-color: rgb(45, 122, 45);
+}
+
+button.yellow {
+  background-color: rgb(228, 228, 0);
+}
+
+
+
+
+ul {
+  display: none;
+}
+
+
+ul.show {
+
+  padding: 0;
+  text-align: center;
+  list-style: none;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  display: block;
+  
+
+
+
+}
+
+ul.red {
+  background-color: rgb(221, 58, 58);
+  
+}
+
+li {
+
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(236, 65, 65);
+
+
+}
